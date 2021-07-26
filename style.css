@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 38rem;
+    position: relative;
+}
+#logo{
+    position: absolute;
+    left: 8rem;
+    top: 4rem;
+    z-index: 10;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:grayscale(.5);
+}
+.menu{
+    position: absolute;
+    display: flex;
+    top: 4rem;
+    right: 28rem;
+    font-family: "Alata";
+    font-size: .9rem;
+    font-weight: 400;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    position: absolute;
+
+}
+.menu ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header>h1{
+    position: absolute;
+    top: 13rem;
+    left: 8rem;
+    font-family: "Josefin Sans";
+    font-size: 4.5rem;
+    font-weight: 200;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 1.5rem;
+    width: 40rem;
+}
+.section-1{
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    padding-top: 12rem;
+    padding-left: 8rem;
+    padding-bottom: 12rem;
+    align-items: center;
+
+}
+.section-1 img{
+   
+    width: 40rem;
+    height: 30rem;
+
+}
+.section-1 .vr{
+    width: 40rem;
+    position: absolute;
+    z-index: 9;
+    top:22rem;
+    right: 5rem;
+    background-color:#fff;
+    border: none;
+    padding-top: 7rem;
+    padding-left: 7rem;
+}
+.vr h2{
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    font-weight: 100;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+.vr p{
+    font-family: "Alata";
+    color: hsl(0, 0%, 55%);
+    width: 30rem;
+}
+.creations{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+.creations h2{
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.creations button{
+    font-family: "Alata";
+    font-size: .9rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 10rem;
+    background-color: #fff;
+    height: 2.8rem;
+    cursor: pointer;
+}
